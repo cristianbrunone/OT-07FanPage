@@ -1,0 +1,341 @@
+
+
+html {
+    font-family: "Nunito", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #0015FA;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+
+/* Content */
+
+.container {
+    background: linear-gradient(to bottom, #2c3e50, #34495e);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.content {
+    max-width: 960px;
+    max-height: 500px;
+    width: 100%;
+    height: 80%;
+    background-image: url("/assets/img/CoryHenry.png");
+    background-size: 1020px 700px; /* Ajusta el tamaño de la imagen para cubrir completamente el contenedor */
+    background-position: right; /* Centra la imagen horizontal y verticalmente */
+    box-shadow: 0 3px 6px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    padding: 1.8em;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contenido-iconos {
+    display: flex;
+    align-items: center;
+}
+
+.icon i {
+    font-weight:lighter; /* Hace que los iconos sean más delgados */
+}
+
+.social-icons {
+    margin-left: 84px; /* Espacio entre el texto y los iconos */
+    margin-top: -23px;
+}
+
+.social-icons .icon {
+    margin-left: 0px; /* Espacio entre los iconos */
+    font-size: 21px; /* Tamaño de fuente */
+    color: white; /* Color de los iconos */
+}
+
+
+.paragraph {
+    line-height: 1.8rem;
+    font-weight: 300;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+
+
+header h1 {
+    margin-bottom: 120%;
+    position: absolute;
+    top: 1%; /* Lo situamos en la parte superior del contenedor */
+    left: 2%; /* Lo situamos en la esquina izquierda */
+    text-align: left;
+    font-size: 5em;
+    color: #f1f1f1;
+    font-weight: bold;
+    font-family: 'Old Standard TT', serif;
+    line-height: 1;
+}
+
+.titulo span {
+    display: block;
+}
+
+.titulo span.segunda-palavra {
+    margin-left: 1.5em; /* Ajusta el tamaño del espacio según sea necesario */
+}
+
+/* Navegação*/
+
+nav {
+    display: flex;
+    justify-content: end;
+    background-size: cover;
+    height: 50%; /* Altura del nav al 100% del contenedor padre */
+    width: 100%; /* Ancho del nav al 100% del contenedor padre */
+    padding: 0; /* Eliminar cualquier relleno */
+    margin: 0; /* Eliminar cualquier margen */
+}
+
+nav ul {
+    display: flex;
+    align-items: top; /* Alinea verticalmente los elementos */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+
+nav ul li:last-child a {
+    border: 1.5px solid #CCCCCC; /* Borde completo de 2px de ancho y color gris oscuro */
+    border-radius: 50px; /* Agrega bordes redondeados */
+    padding: 3px 14px; /* Añade espacio de relleno para que el texto no esté pegado al borde */
+}
+
+
+/* Inscrição */
+
+
+
+.content-contato {
+    max-width: 960px;
+    max-height: 500px;
+    width: 100%;
+    height: 80%;
+    background-image: url("/assets/img/cristian.jpg");
+    background-color: transparent;
+    background-size: 500px 500px; /* Ajusta el tamaño de la imagen para cubrir completamente el contenedor */
+    background-repeat: no-repeat;
+    background-position: right; /* Centra la imagen horizontal y verticalmente */
+    box-shadow: 0 3px 6px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    padding: 1.8em;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+  div{
+    margin: -15px;
+    padding : 0;
+    box-sizing: border-box;
+
+  }
+
+  .wrapper{
+    width: 80%;
+    margin: 0 auto;
+    padding-right: 60%;
+  }
+ 
+  .form .form-aside{
+    float: right;
+    width: 370px;
+    height: 470px;
+    margin: 24px 14px 16px 8px;
+    padding: 12px 18px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .form .form-aside .form-title{
+    margin-bottom: 12px;
+  }
+  .form .form-aside input{
+    width: 306px;
+    height: 17px;
+    margin: 5.5px 0px;
+    padding: 10px;
+    border: 1px solid #dedede;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: transparent;
+    color: #f5f5f5;
+  }
+
+  .form .form-aside input::placeholder,
+.form .form-aside textarea::placeholder {
+  color: rgba(245, 245, 245, 0.7); /* Cambia el color del texto de marcador de posición */
+}
+
+
+  .form .form-aside input:focus,
+.form .form-aside textarea:focus {
+    background-color: #9c5e9c; /* Cambia el color de fondo al enfocar */
+    color: rgba(245, 245, 245, 0.9);
+    outline: none; /* Quita el contorno predeterminado al enfocar */
+}
+
+.form .form-aside button {
+  background-color: #54677d; /* Color de fondo verde */
+  color: white; /* Color del texto blanco */
+  border: none; /* Quita el borde */
+  padding: 10px 30px; /* Espaciado interno */
+  margin-top: 20px;
+  text-align: center; /* Alineación del texto */
+  text-decoration: none; /* Quita la subrayado del texto */
+  display: inline-block; /* Hace que los botones se comporten como bloques en línea */
+  font-size: 16px; /* Tamaño de fuente */
+  margin-right: 15px; /* Margen derecho para separar los botones */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  border-radius: 20px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Transición suave al cambiar el color de fondo */
+  margin-left: 12px; 
+}
+
+.form .form-aside button:active {
+  background-color: #34495e; /* Cambia el color de fondo al hacer clic */
+}
+ 
+
+/* Conteudo */
+
+  .titulo-conteudo{
+    font-size: 40px;
+    margin-left: 3%;
+    margin-top: 0.9%;
+
+  }
+  
+  .table {
+    max-width: 100%;
+    width: 90%; /* Ancho de la tabla */
+    margin: 20px auto; /* Margen automático para centrar la tabla */
+    border-collapse: collapse; /* Colapsa los bordes de las celdas */
+    border: 0.5px solid #ffffff; /* Borde alrededor de la tabla */
+    margin-top: -16%; /* Ajusta el margen superior de la tabla */
+
+}
+
+.table th, .table td {
+    padding: 10px; /* Espaciado interno de las celdas */
+    text-align: center; /* Alineación del texto en el centro */
+}
+
+.table th {
+    background-color: #4d6279; /* Color de fondo del encabezado de la tabla */
+    color: #ffffff; /* Color del texto del encabezado de la tabla */
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color de fondo de las filas pares */
+}
+.table tbody tr:nth-child(odd) {
+  background-color: #7898b4; /* Nuevo color de fondo para las filas impares */
+}
+
+
+.content-conteudo {
+  max-width: 960px;
+  max-height: 500px;
+  width: 100%;
+  height: 80%;
+  background-color: transparent;
+  background-size: 1020px 700px; /* Ajusta el tamaño de la imagen para cubrir completamente el contenedor */
+  background-position: right; /* Centra la imagen horizontal y verticalmente */
+  box-shadow: 0 3px 6px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  padding: 1.8em;
+  border-radius: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+
+
+
+@media all and (max-width: 959px) {
+  .wrapper {
+      width: 320px;
+  }
+  
+  .content-contato {
+      max-width: 100%;
+      max-height: 100%;
+      width: 100%;
+      height: 100%;
+      background-image: none;
+      background-color: transparent;
+      padding: 60px 30px; /* Ajusta el relleno para subir el formulario */
+      border-radius: 30px;
+  }
+
+  .form .form-aside {
+      float: right;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      margin-top: -200px;
+  }
+
+  .form .form-aside .form-title {
+    text-align: center; /* Centra el texto del título */
+    padding-left: 14%;
+    font-size: 15px;
+}
+
+}
