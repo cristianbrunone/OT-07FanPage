@@ -16,7 +16,7 @@ Navegue pela fanpage para ver os hits de Cory Henry e utilize o formulário de i
 
 ## Capturas de Tela
 
-![Captura de Tela Principal](https://github.com/cristianbrunone/OT-07FanPage/blob/main/cory.png)
-![Captura de Tela Principal](https://github.com/cristianbrunone/OT-07FanPage/blob/main/coryform.png)
-![Captura de Tela Principal](https://github.com/cristianbrunone/OT-07FanPage/blob/main/coryconteudo.png)
+![Captura de Tela Principal](https://github.com/cristianbrunone/OT-07FanPage/blob/main/home.png)
+![Captura de Tela Principal](https://github.com/cristianbrunone/OT-07FanPage/blob/main/inscricao.png)
+![Captura de Tela Principal](https://github.com/cristianbrunone/OT-07FanPage/blob/main/conteudo.png)
 
