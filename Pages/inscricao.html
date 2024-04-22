@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inscrição</title>
+    <title>Inscripción</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link href="./font-awesome/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="../javascript/main.js"></script>
     <!-- Importa Animate.css en tu archivo HTML -->
     <link href="../assets/css/main.css" rel="stylesheet">
     <!--=============== REMIXICONS ===============-->
@@ -16,7 +17,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="content-contato animate__animated animate__fadeInDown">
+        <div class="content-contato animate_animated animate_fadeInDown">
             <nav class="contato">
                 <ul>
                     <li><a href="../index.html">Home</a></li>
@@ -28,24 +29,27 @@
                             <a href="https://open.spotify.com/intl-pt/artist/21SOnTj5ECwVXeBUTRcP3s" class="icon"><i class="ri-spotify-line"></i></a>
                         </div>
                     </li>
-                    <li><a href="inscricao.html">Inscrição</a></li>
+                    <li><a href="inscricao.html">Inscripción</a></li>
                 </ul>
             </nav>            
             <div class="header">
                 <div class="wrapper">
                     <div class="form clearfix">
                         <div class="form-aside">
-                            <form>
-                                <div class="form-title">
+                            <fieldset>
+                                <form name="frmfaleconosco" method="post" action="#" onsubmit="return validafaleConosco()">
+                                    <div class="form-title">
+                                        <br>
+                                        Faça sua Inscrição
+                                    </div>
+                                    <input type="text" name="txtnome" placeholder="Nombre">                           
+                                    <input type="email" name="txtemail" placeholder="E-mail">
+                                    <input type="text" name="txtfone" placeholder="Teléfono">
                                     <br>
-                                    Faça sua Inscrição
-                                </div>
-                                <input type="text" placeholder="Nome">
-                                <input type="text" placeholder="E-mail">
-                                <input type="text" placeholder="Telefone">
-                                <br>
-                                <button type="reset">Limpar</button><button type="submit">Enviar</button>	
-                            </form>
+                                    <button type="reset">Limpiar</button>
+                                    <button type="submit">Enviar</button>	
+                                </form>
+                            </fieldset>
                         </div>
                     </div>
                 </div>  
